@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/not_fail"
+        android:layout_width="256dp"
+        android:background="@drawable/box2"
+        android:text="Ban da tra loi sai. Ban co muon tiep tuc choi lai?"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_height="128dp" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/not_fail"
+        android:id="@+id/btn_back_fail"
+        android:layout_width="wrap_content"
+        android:background="@drawable/box2"
+        android:textSize="16sp"
+        android:text="back"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/btn_back_fail"
+        android:id="@+id/btn_continue_fail"
+        android:layout_width="wrap_content"
+        android:background="@drawable/box2"
+        android:textSize="16sp"
+        android:text="Continue"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

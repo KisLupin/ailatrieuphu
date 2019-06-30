@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_online_blank"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:src="@drawable/atp_icon_retry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/begin"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="64dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_nomal"
+        android:text="Begin"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/instrm"
+        android:layout_below="@+id/begin"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_nomal"
+        android:text="Instruction"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/hgsc"
+        android:layout_below="@+id/instrm"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_nomal"
+        android:text="High Score"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_below="@+id/hgsc"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_nomal"
+        android:text="Quit"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
